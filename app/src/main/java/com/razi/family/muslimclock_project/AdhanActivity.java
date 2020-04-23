@@ -52,8 +52,6 @@ public class AdhanActivity extends AppCompatActivity {
 
 
 
-        //i see you
-        // im mesing the <code
         final SharedPreferences sharedPreferences = getSharedPreferences("mySettings", MODE_PRIVATE);
         String city = sharedPreferences.getString("city", "");
         String country = sharedPreferences.getString("country", "");
