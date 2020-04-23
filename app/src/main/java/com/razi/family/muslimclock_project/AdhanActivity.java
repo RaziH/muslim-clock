@@ -25,7 +25,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 public class AdhanActivity extends AppCompatActivity {
-    TextView location1;
+    TextView location1; // I am making changes
     TextView fajr;
     TextView sunrise;
     TextView dhuhr;
@@ -39,6 +39,18 @@ public class AdhanActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_adhan);
+        // super.onCreate(savedInstanceState);
+        // setContentView(R.layout.activity_adhan);
+        // super.onCreate(savedInstanceState);
+        // setContentView(R.layout.activity_adhan);
+        // super.onCreate(savedInstanceState);
+        // setContentView(R.layout.activity_adhan);
+        // super.onCreate(savedInstanceState);
+        // setContentView(R.layout.activity_adhan);
+        // super.onCreate(savedInstanceState);
+        // setContentView(R.layout.activity_adhan);
+        // super.onCreate(savedInstanceState);
+        // setContentView(R.layout.activity_adhan);
 
         backgroundAdhan = (LinearLayout) findViewById(R.id.background5);
         location1 = (TextView) findViewById(R.id.location);
@@ -52,6 +64,21 @@ public class AdhanActivity extends AppCompatActivity {
         final SharedPreferences sharedPreferences = getSharedPreferences("mySettings", MODE_PRIVATE);
         String city = sharedPreferences.getString("city", "");
         String country = sharedPreferences.getString("country", "");
+        // final SharedPreferences sharedPreferences = getSharedPreferences("mySettings", MODE_PRIVATE);
+        // String city = sharedPreferences.getString("city", "");
+        // String country = sharedPreferences.getString("country", "");
+        // final SharedPreferences sharedPreferences = getSharedPreferences("mySettings", MODE_PRIVATE);
+        // String city = sharedPreferences.getString("city", "");
+        // String country = sharedPreferences.getString("country", "");
+        // final SharedPreferences sharedPreferences = getSharedPreferences("mySettings", MODE_PRIVATE);
+        // String city = sharedPreferences.getString("city", "");
+        // String country = sharedPreferences.getString("country", "");
+        // final SharedPreferences sharedPreferences = getSharedPreferences("mySettings", MODE_PRIVATE);
+        // String city = sharedPreferences.getString("city", "");
+        // String country = sharedPreferences.getString("country", "");
+        // final SharedPreferences sharedPreferences = getSharedPreferences("mySettings", MODE_PRIVATE);
+        // String city = sharedPreferences.getString("city", "");
+        // String country = sharedPreferences.getString("country", "");
 
         RequestQueue queue = Volley.newRequestQueue(AdhanActivity.this);
         JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, URL + "?city=" + city + "&country=" + country, null,
