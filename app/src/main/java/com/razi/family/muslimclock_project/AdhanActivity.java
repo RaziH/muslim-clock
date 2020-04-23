@@ -39,7 +39,7 @@ public class AdhanActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_adhan);
-
+//mwahahahaaha
         backgroundAdhan = (LinearLayout) findViewById(R.id.background5);
         location1 = (TextView) findViewById(R.id.location);
         fajr = (TextView) findViewById(R.id.fajr);
@@ -49,6 +49,11 @@ public class AdhanActivity extends AppCompatActivity {
         midnight = (TextView) findViewById(R.id.midnight);
         back1 = (ImageView) findViewById(R.id.back1);
 
+
+
+
+        //i see you
+        // im mesing the <code
         final SharedPreferences sharedPreferences = getSharedPreferences("mySettings", MODE_PRIVATE);
         String city = sharedPreferences.getString("city", "");
         String country = sharedPreferences.getString("country", "");
