@@ -39,7 +39,7 @@ public class AdhanActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_adhan);
-//mwahahahaaha
+
         backgroundAdhan = (LinearLayout) findViewById(R.id.background5);
         location1 = (TextView) findViewById(R.id.location);
         fajr = (TextView) findViewById(R.id.fajr);
