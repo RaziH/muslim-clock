@@ -34,7 +34,7 @@ public class AdhanActivity extends AppCompatActivity {
     TextView midnight;
     String URL = "http://api.aladhan.com/v1/calendarByCity";
     ImageView back1;
-
+//razi
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
